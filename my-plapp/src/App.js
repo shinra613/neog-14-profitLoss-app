@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import calculateProfitAndLoss from "./plcalc";
 import { useState } from "react";
@@ -17,6 +17,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="container">
       <div className="input">
         <h1>Profit / Loss Calculator</h1>
         <br />
@@ -74,8 +75,22 @@ function App() {
         </button>
       </div>
 
-      <div className="output">{result}</div>
+        <div className="output">{result}</div>
+        
+        </div>
+
+      <footer>
+        <h3>
+          Made by{" "}
+          <a href="https://akhilvenkateshpillai.vercel.app/" target="_blank">
+            Akhil
+          </a>
+         
+
+        </h3>
+      </footer>
     </div>
+
   );
 }
 
