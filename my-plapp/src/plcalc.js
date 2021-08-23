@@ -7,14 +7,14 @@ const calculateProfitAndLoss = (props) => {
       var loss = (initialPrice - CurrentPrice) * Quantity;
       var lossPercentage = (loss / initialPrice) * 100;
   
-      return `'Hey, the loss is ${loss} and the percent is ${lossPercentage}%'`;
+      return `'The loss is : ${loss} and the percent is : ${lossPercentage}%'`;
     } else if (CurrentPrice > initialPrice) {
       var profit = (CurrentPrice - initialPrice) * Quantity;
       var profitPercentage = (profit / initialPrice) * 100;
   
-      return ` 'Hey, the profit is ${profit} and the percent is ${profitPercentage}%'`;
+      return ` 'The profit is : ${profit} and the percent is : ${profitPercentage}%'`;
     } else {
-      return `'No pain no gain and no gain no pain'`;
+      return `'No gain, no loss'`;
     }
   };
   
