@@ -21,7 +21,7 @@ function App() {
       <div className="input">
         <h1>Profit / Loss Calculator</h1>
         <br />
-        <label>Intial Price : </label>
+        <label>Intial Price (INR) : </label>
         <br />
         <br />
         <input
@@ -45,7 +45,7 @@ function App() {
         <br />
         <br />
         <br />
-        <label>Current Price : </label>
+        <label>Current Price (INR) : </label>
         <br />
         <br />
         <input
